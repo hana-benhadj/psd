@@ -274,7 +274,8 @@ table {
   h3 {
     page-break-after: avoid;
   }
-  .navbar {
+  .
+  r {
     display: none;
   }
   .table td,
@@ -1079,9 +1080,10 @@ pre code {
 }
 
 @media (min-width: 992px) {
-  .container {
-    max-width: 970px;
-  }
+    .container {
+        width: 1177px !important;
+        
+    }
   .col-md-1,
   .col-md-2,
   .col-md-3,
@@ -1242,9 +1244,10 @@ pre code {
 }
 
 @media (min-width: 1200px) {
-  .container {
-    max-width: 1170px;
-  }
+    .container {
+        max-width: 1170px;
+        
+    }
   .col-lg-1,
   .col-lg-2,
   .col-lg-3,
@@ -2049,9 +2052,9 @@ fieldset[disabled] .btn {
 }
 
 .btn-default {
-  color: #333333;
-  background-color: #ffffff;
-  border-color: #cccccc;
+    color: #777;
+    background-color: #ffffff;
+    border-color: #cccccc;
 }
 
 .btn-default:hover,
@@ -4501,8 +4504,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #222222;
-  border-color: #080808;
+    background-color: #222222;
+    border-color: #080808;
+    margin-bottom: -9%;
 }
 
 .navbar-inverse .navbar-brand {
@@ -4556,10 +4560,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
   background-color: #ffffff;
 }
 
-.navbar-inverse .navbar-collapse,
-.navbar-inverse .navbar-form {
-  border-color: #101010;
-}
+    .navbar-inverse .navbar-collapse,
+    .navbar-inverse .navbar-form {
+        border-color: #101010;
+        margin-right: 10%;
+    }
 
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,

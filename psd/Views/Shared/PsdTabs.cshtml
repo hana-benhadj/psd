@@ -1,0 +1,152 @@
+﻿<style>
+    .card {
+        display: inline-flex;
+</style>
+<style>
+    body {
+        padding: 20px;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f7f7f7;
+    }
+
+    .lib-panel {
+        margin-bottom: 20Px;
+        margin-right: 25%;
+    }
+
+        .lib-panel img {
+            width: 77%;
+            margin-top: 9%;
+            margin-left: 1%;
+            background-color: transparent;
+        }
+
+        .lib-panel .row,
+        .lib-panel .col-md-6 {
+            padding: 0;
+            margin-left: 0%;
+            margin-right: -33%;
+            background-color: darkgray;
+        }
+
+
+        .lib-panel .lib-row {
+            padding: 0 20px 0 20px;
+        }
+
+            .lib-panel .lib-row.lib-header {
+               
+                background-color: darkgrey;
+                font-size: 20px;
+                padding: 10px 20px 0 20px;
+                margin-left: 48%;
+            }
+
+                .lib-panel .lib-row.lib-header .lib-header-seperator {
+                    height: 2px;
+                    width: 26px;
+                    background-color: #d9d9d9;
+                    margin: 7px 0 7px 0;
+                }
+
+            .lib-panel .lib-row.lib-desc {
+                position: relative;
+                height: 68%;
+                font-size: 16px;
+                margin-left: -34%;
+                margin-top: 13%;
+                color: white;
+            }
+
+                .lib-panel .lib-row.lib-desc a {
+                    position: absolute;
+                    width: 100%;
+                    bottom: 10px;
+                    left: 20px;
+                }
+
+    .row-margin-bottom {
+        margin-bottom: 20px;
+    }
+
+    .box-shadow {
+        -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+        box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+    }
+
+    .no-padding {
+        padding: 0;
+    }
+</style>
+<style>
+    .col-lg-4, .col-lg-8 {
+        border: solid;
+        height: 400px;
+    }
+</style>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<div style="border: ridge ; margin-left:-25%; background-color:#494949;    margin-left: -2%;
+    margin-right: -2%;" ;
+     height: 290px;">
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#tab1">TAB 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#tab2">TAB 2</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#tab3">TAB 3</a>
+        </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <!-- Tab panes -->
+    <div class="tab-content" >
+        <div class="tab-pane active container" id="tab1">
+
+        </div>
+
+        <div class="tab-pane" id="tab2" style="background-color:#494949;">
+            @*<div class="container">*@
+                @*<div class="row">
+
+                    <div class="row row-margin-bottom">
+                        <div class="col-md-5 no-padding lib-item" data-category="view">*@
+                            <div class="lib-panel">
+                                <div class="row box-shadow">
+                                    <div class="col-md-4">
+                                        <img src="~/Content/Capture.PNG" />
+                                    </div>
+                                    <div class="col-md-4">                                     
+                                        <div class="lib-row lib-desc">
+                                            HEADING
+                                            <br/>
+                                            Well, the way they make shows is, they
+                                            make one show. That show's called a  pilot. Then, they show that show to the people
+                                            who make shoes, and on the strenght of that one show they decide if  they're giong to make more shows.
+                                            Some pilot get picked and become  television programs.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    @*</div>
+                </div>
+
+
+
+            </div>*@
+            <div class="tab-pane container" id="tab3"></div>
+        </div>
+
+
+    </div>
+
+
+@*</div>*@
