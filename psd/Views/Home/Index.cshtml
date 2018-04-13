@@ -27,15 +27,14 @@
 
     .bt2 {
         margin-left: 123%;
-
     }
 </style>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 @*<div class="navbar navbar-inverse" style="width:110%;    margin-left: -68px;margin-right: 20%;">
 
@@ -58,54 +57,58 @@
     </div>*@
 
 @*</div>*@
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="    width: 117.5%;
+    margin-left: -6%; background-color:#6D7B8D!important">
     <ul class="navbar-nav">
-        <li class="nav-item active">
-            <a class="nav-link" href="#">Active</a>
+        <li class="nav-item ">
+            <a class="nav-link" href="#" style="font-size: 24px; MARGIN-LEFT: 47%;">HOME</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="#" style="font-size: 24px;     margin-left: 225%;">ABOUT</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#" style="font-size: 24px;     margin-left: 494%;">NEWS</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#" style="margin-left: 734%;
+    font-size: 24px;">WORK</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="#" style="    margin-left: 635%;
+
+    font-size: 24px;">CONTACT</a>
         </li>
     </ul>
 </nav>
+
+
 <div class="cont" style=" ">
-    <div class="row">
+    <div class="row" style="    background-color: #EFEFEF;">
         <div class="col-lg-4">
 
             @Html.Partial("Dropdown")
+
         </div>
 
 
         <div class="col-lg-4 ">
-            @*<div class="row">
-                <div class="col-lg-12" style="margin-top: -19%;">
-                    <button type="button" class="btn btn-default ">BUTTON</button>
-                    <button type="button" class="btn btn-default">BUTTON</button>
 
-                </div>
-                <div>
-                    <button type="button" class="btn btn-default bt">BUTTON</button>
-                    <button type="button" class="btn btn-default bt2">BUTTON</button>
+            @Html.Partial("ButtonsAndRadio")
 
-                </div>
-            </div>*@
-                @Html.Partial("ButtonsAndRadio")
-           
         </div>
-        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+
+            @Html.Partial("Inputs")
+
+        </div>
     </div>
-    <div class="row">
+    <div class="row" style="    background-color: #EFEFEF;">
         <div class="col-lg-8">
 
             @Html.Partial("PsdTabs")
 
         </div>
-        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+        </div>
     </div>
 </div>

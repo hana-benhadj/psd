@@ -262,6 +262,7 @@
     <Content Include="Views\Shared\PsdTabs.cshtml" />
     <Content Include="Views\Shared\ButtonsAndRadio.cshtml" />
     <Content Include="Views\Shared\Dropdown.cshtml" />
+    <Content Include="Views\Shared\Inputs.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
